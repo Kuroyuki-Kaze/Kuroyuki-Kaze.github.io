@@ -1,1 +1,0 @@
-# Kuroyuki-Kaze.github.io
