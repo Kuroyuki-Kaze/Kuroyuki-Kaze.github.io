@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A page with a very nice background.</title>
+    <style>
+        body {
+            background-image: url("assets/skyline.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        div#external {
+            display: table;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        div#middle {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        div#internal {
+            text-align: center;
+        }
+
+        div h1 {
+            font-family: "CADT Mono Display", monospace;
+            color: rgb(0, 0, 0);
+        }
+
+        div button {
+            padding: 10px;
+            font-family: "CADT Mono Display", monospace;
+            background-color: rgb(2, 5, 87);
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="external">
+        <div id="middle">
+            <div id="internal">
+                <h1>Super Awesome Title</h1>
+                <button onclick="alert('*Gives you a nice virus instead*')">Find out more</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

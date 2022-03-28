@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS sources</title>
+    <style>
+        body p:not(#extern) {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            color: #eeeeee;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body style="background-color: green;">
+    <p>
+        The background's color is set inline.<br>
+        This text's color is set by the internal CSS.
+    </p>
+    <p id="extern">And this paragraph is set by the extenal CSS.</p>
+</body>
+</html>

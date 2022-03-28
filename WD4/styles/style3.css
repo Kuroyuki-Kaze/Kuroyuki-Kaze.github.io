@@ -1,0 +1,63 @@
+body {
+    font-family: 'Niradei', sans-serif;
+    background-color: #eee;
+}
+
+div#viewport {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+div#center-content {
+    background-color: #fff;
+    padding: 20px 40px;
+}
+
+table#tableau {
+    align-self: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*table data borders*/
+table#tableau td:not(#exclude), table#tableau th:not(#exclude) {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+table#tableau td.action-items {
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+}
+
+table#tableau td.action-items i.fa-solid.fa-pencil {
+    /*make the color yellow*/
+    color: #ffc107;
+}
+
+table#tableau td.action-items i.fa-solid.fa-trash {
+    /*make the color red*/
+    color: #dc3545;
+}
+
+button {
+    background-color: #06cae4;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+td p {
+    font-size: 25px;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script>
+        function senddata() {
+            let first_name = document.getElementByName("firstname").value;
+            let last_name = document.getElementByName("lastname").value;
+            let nickname = document.getElementByName("nickname").value;
+            let email = document.getElementByName("email").value;
+            let password = document.getElementByName("password").value;
+            let confirm_password = document.getElementByName("confirmpassword").value;
+            let dob = document.getElementsByName("dob").value;
+            let gender = document.getElementByName("gender").value;
+            let phone_number = document.getElementsByName("phonenumber").value;
+            let address = document.getElementsByName("address").value;
+
+            let full_string = first_name + "\n" + last_name + "\n" + nickname + "\n" + email + "\n" + password + "\n" + confirm_password + "\n" + dob + "\n" + gender + "\n" + phone_number + "\n" + address;
+
+            alert(full_string);
+        }
+    </script>
+</head>
+<body style="background-color:#ddd">
+    <form id="myform"></form>
+    <table style="width:100%">
+        <tr>
+            <th colspan="2" style="font-size:30px"><b><u>Registration Form</u></b></th>
+        </tr>
+        <tr>
+            <td align="center" style="width:50%;font-size:20px">
+                First Name
+            </td>
+            <td>
+                <input type="text" name="firstname" form="myform">
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="width:50%;font-size:20px">
+                Last Name
+            </td>
+            <td>
+                <input type="text" name="lastname" form="myform">
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="width:50%;font-size:20px">
+                Nickname
+            </td>
+            <td>
+                <input type="text" name="nickname" form="myform">
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="width:50%;font-size:20px">
+                Email
+            </td>
+            <td>
+                <input type="email" name="email" form="myform">
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="width:50%;font-size:20px">
+                Password
+            </td>
+            <td>
+                <input type="password" name="password" form="myform">
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="width:50%;font-size:20px">
+                Confirm Password
+            </td>
+            <td>
+                <input type="password" name="confirmpassword" form="myform">
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="width:50%;font-size:20px">
+                Date of Birth
+            </td>
+            <td>
+                <input type="date" name="dob" form="myform">
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="width:50%;font-size:20px">
+                Gender
+            </td>
+            <td>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="width:50%;font-size:20px">
+                Phone number
+            </td>
+            <td>
+                <input type="tel" name="phonenumber" form="myform">
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="width:50%;font-size:20px">
+                Address
+            </td>
+            <td>
+                <textarea id="address" name="address" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="width:50%;font-size:20px"></td>
+            <td>
+                <input type="submit" onclick="senddata" style="margin:10px">
+                <input type="reset" style="margin:10px">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

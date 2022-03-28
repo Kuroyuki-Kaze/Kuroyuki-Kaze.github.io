@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manim: Getting Started</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <h1>Manim&trade;: Python Mathematical Equations Rendering Engine</h1>
+    <hr>
+    <div style="margin:40px;padding:5px;">
+        <ul>
+            <li>
+                <a href="GettingStarted.html#Windows">Installation instructions for Windows</a>
+            </li>
+            <li>
+                <a href="GettingStarted.html#MacOS">Installation instructions for MacOS</a>
+            </li>
+            <li>
+                <a href="GettingStarted.html#Linux">Installation instructions for Linux</a>
+            </li>
+        </ul>
+        <h2 id="GettingStarted">
+            Getting Started
+        </h2>
+        <p>
+            Starting everything off, you should know that there are two versions of Manim&trade;, which are <b>the original version created by Grant Sanderson</b>, the author of 3Blue1Brown himself, and <b>the community version</b>, which aims to be more stable, updated more frequently, more accessible, and quicker testing.
+        </p>
+        <p>
+            In this tutorial, we will be using the community version, which is the one that you should be currently using.
+        </p>
+        <p>
+            To get started with Manim&trade;, we need to decide which version of Manim&trade; to download. After that, let's download Manim&trade; from the <a href="../downloads">download page</a>, or build it directly from the <a href="source.html">source code</a>.
+        </p>
+        <p>
+            After you have downloaded Manim&trade;, next let's download and install <a href="https://python.org/downloads">the Python interpreter</a>.
+        </p>
+        <br/>
+        <h2 id="Windows">
+            Installation instructions for Windows
+        </h2>
+        <p>
+            The easiest way to install Manim on windows is through a package manager like <a href="https://chocolatey.org/">Chocolatey</a> or <a href="https://scoop.sh">Scoop</a>. You can also try to installing things manually if you are not afraid to change the system <code>PATH</code>.
+        </p>
+        <h3 class="normal">
+            Required dependencies
+        </h3>
+        <ul>
+            <li>Python (3.7 - 3.9)</li>
+            <li><code>ffmpeg</code></li>
+        </ul>
+        <h3 class="normal">
+            Chocolatey
+        </h3>
+        <p>
+            Just run:
+        </p>
+        <p>
+            <span class="codeblock">
+                choco install python3.7
+            </span>
+        </p>
+        <p>
+            No additional steps required.
+        </p>
+        <h3 class="normal">
+            Scoop
+        </h3>
+        <p>
+            Run:
+        </p>
+        <p>
+            <span class="codeblock">
+                scoop install python3.7 ffmpeg
+            </span>
+        </p>
+        <p>
+            then, install Manim by:
+        </p>
+        <p>
+            <span class="codeblock">
+                python -m pip install manim
+            </span>
+        </p>
+        <br/>
+        <h2 id="MacOS">Installation instructions for MacOS</h2>
+        <p>
+            Manim can be easily installed on MacOS using the popular package manager <a href="https://brew.sh/">Homebrew</a>.
+        </p>
+        <h3 class="normal">
+            Required dependencies
+        </h3>
+        <p>
+            Install the required dependencies by:
+        </p>
+        <p>
+            <span class="codeblock">
+                brew install py3cairo ffmpeg
+            </span>
+        </p>
+        <p>
+            Some machines may require additional dependencies to function correctly:
+        </p>
+        <p>
+            <span class="codeblock">
+                brew install cmake pango scipy
+            </span>
+        </p>
+        <p>
+            After all dependencies are installed, run the following command to install Manim:
+        </p>
+        <p>
+            <span class="codeblock">
+                pip3 install manim
+            </span>
+        </p>
+        <br/>
+        <h2 id="Linux">Installation instructions for Linux</h2>
+        <p>
+            Installation on Linux depends on your distribution and package manager.
+        </p>
+        <h3 class="normal">
+            Required dependencies
+        </h3>
+        <p>
+            Consult your package manager documentations on how to install:
+            <ul>
+                <li>
+                    A reasonably recent version of Python (3.7 - 3.9)
+                </li>
+                <li>
+                    A working Cairo bindings in the form of <code>pycairo</code>
+                </li>
+                <li>
+                    <code>ffmpeg</code>
+                </li>
+                <li>
+                    and <code>pango</code> headers.
+                </li>
+            </ul>
+        </p>
+        <p>
+            After that, to install Manim, it is just the matter of running:
+        </p>
+        <p>
+            <span class="codeblock">
+                pip3 install manim
+            </span>
+        </p>
+    </div>
+    <hr>
+    <p class="no-indent">
+        <span style="margin:20px;padding:10px;"><a href="../docs">Documentation</a></span>
+        <span style="margin:20px;padding:10px;"><a href="../source.html">Source Code</a></span>
+        <span style="margin:20px;padding:10px;"><a href="../downloads.html">Downloads</a></span>
+        <span style="margin:20px;padding:10px;"><a href="../community">Community</a></span>
+    </p>
+</body>
+</html>

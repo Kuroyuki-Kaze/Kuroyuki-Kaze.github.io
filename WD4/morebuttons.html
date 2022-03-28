@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>more buttons</title>
+    <style>
+        #spaced {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            width: 95%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #spaced button {
+            min-width: 150px;
+            min-height: 150px;
+            max-height: 150px;
+            max-width: 150px;
+            font-size: 20px;
+        }
+        .img-rounded {
+            border: none;
+            border-radius: 5%;
+            background-color: #b1b9feff;
+        }
+        .img-circle {
+            border: none;
+            border-radius: 50%;
+            background-color: #b1b9feff;
+        }
+        .img-thumbnail {
+            padding: 3px;
+            background-image: linear-gradient(to bottom, #b1b9feff, #b1b9feff), linear-gradient(to bottom, #ffffffff, #ffffffff);
+            background-clip: content-box, padding-box;
+            border: 1px solid #ddd;
+            border-radius: 3%;
+            max-width: 150px;
+            max-height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div id="spaced">
+        <button class="img-rounded">
+            150x150
+        </button>
+
+        <button class="img-circle">
+            150x150
+        </button>
+
+        <button class="img-thumbnail">
+            150x150
+        </button>
+    </div>
+</body>
+</html>
