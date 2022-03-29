@@ -10,7 +10,6 @@
     margin: 0;
     width: 100%;
     height: auto;
-    border: 1px solid green;
 }
 
 .imgbutton {
@@ -115,7 +114,6 @@ div.padding {
 div.center-container {
     display: flex;
     justify-content: center;
-    border: 1px solid blue;
     width: 100%;
 }
 
@@ -164,7 +162,6 @@ div.award-header {
 
 div.grid-wrapper {
     margin: 50px;
-    border: 1px solid red;
 }
 
 div.grid {
@@ -173,7 +170,6 @@ div.grid {
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 30px;
     margin: 20px;
-    border: 1px solid blue;
 }
 
 div.grid-item {
