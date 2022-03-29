@@ -25,7 +25,6 @@ nav {
     box-sizing: border-box;
     padding: 5vh 50px;
     height: 10vh;
-    border: 1px solid red;
 }
 
 .nav-content {
@@ -53,6 +52,16 @@ div.switch-lang {
     padding: 10px;
     border-radius: 30px;
     background-color: #2f4a7e;
+}
+
+div.switch-lang button {
+    padding: 3px;
+    background-color: inherit;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.first-screen {
@@ -142,7 +151,6 @@ button.transpar-border:hover {
 }
 
 div.second-screen {
-    border: 1px solid red;
     justify-content: center;
     align-items: center;
     background-color: #f9f6f6;
@@ -156,6 +164,7 @@ div.award-header {
 
 div.grid-wrapper {
     margin: 50px;
+    border: 1px solid red;
 }
 
 div.grid {
@@ -164,6 +173,7 @@ div.grid {
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 30px;
     margin: 20px;
+    border: 1px solid blue;
 }
 
 div.grid-item {
@@ -212,3 +222,99 @@ div.third-screen {
     background-color: #f1f2f2;
 }
 
+.failure {
+    color: #888;
+}
+
+div.fourth-screen {
+    background-color: #f9f6f6;
+}
+
+div.grid-item2 {
+    background-color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+div.pfp-back {
+    background-image: radial-gradient(circle, #00194e, #000f21);
+}
+
+div.pfp {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+div.pfp > img {
+    border-radius: 50%;
+}
+
+div.name-header {
+    color: #404040;
+}
+
+div.name-description {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    color: #8a8c8d;
+}
+
+div.fifth-screen {
+    background-color: #f1f1f2;
+}
+
+div.collapsible-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f1f2f2;
+    padding: 20px;
+    margin: 30px 150px;
+}
+
+div.collapsible > button.collapsible-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: inherit;
+    border: none;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    cursor: pointer;
+}
+
+div.collapsible > button.collapsible-header > h3 {
+    font-size: 1.4em;
+    color: #4f4f4f;
+}
+
+div.collapsible > div.collapsible-content > p {
+    color: #a0a0a0;
+    font-size: 1.1em;
+}
+
+div.collapsible > button.collapsible-header > i {
+    font-size: 2em;
+    color: #5382fc;
+    transition: 0.5s;
+}
+
+div.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    background-color: inherit;
+}
+
+button.collapsible-header:hover > i {
+    color: #46b6b6;
+}
+
+.active > i {
+    color: #46b6b6;
+    transform: rotate(-135deg);
+}
