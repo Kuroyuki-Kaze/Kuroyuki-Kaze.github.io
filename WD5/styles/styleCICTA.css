@@ -314,3 +314,8 @@ button.collapsible-header:hover > i {
     color: #46b6b6;
     transform: rotate(-135deg);
 }
+
+div.judging-panel-header {
+    text-align: center;
+    margin: 20px;
+}
