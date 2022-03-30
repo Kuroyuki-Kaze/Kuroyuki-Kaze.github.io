@@ -160,7 +160,8 @@ nav > div.cucker-buttons > button:hover:not(.name-card) {
 .refugee-box > .content-box h3 {
     font-size: 36px;
     margin: 0;
-    padding: 30px
+    padding: 30px;
+    text-align: center;
 }
 
 .refugee-box > .content-box button {
@@ -174,15 +175,15 @@ nav > div.cucker-buttons > button:hover:not(.name-card) {
 
 .curiosity-box {
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
     background-image: url("../assets/hardwood.webp");
     border-radius: 10px;
     background-position: right 170px bottom 750px;
 }
 
 .curiosity-box > .content-box {
-    padding: 100px;
-    padding-top: 300px;
+    padding: 70px;
+    padding-top: 150px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -192,6 +193,11 @@ nav > div.cucker-buttons > button:hover:not(.name-card) {
     font-size: 36px;
     margin: 0;
     padding: 30px
+}
+
+.curiosity-box > .content-box h3 > ul {
+    list-style-type: var("-");
+    font-size: 24px;
 }
 
 .curiosity-box > .content-box button {
@@ -216,4 +222,166 @@ nav > div.cucker-buttons > button:hover:not(.name-card) {
     width: 100%;
     height: 100%;
     z-index: -1;
+}
+/* ----------------Mindle Section------------------------------------- */
+h3.inspire{
+    position: absolute;
+width: 473px;
+height: 49px;
+left: 72px;
+top: 1226px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;
+}
+.sub-cat-img1{
+    position: relative;
+    width: 290px;
+    height: 433px;
+    left: 30px;
+    top: 1340px;
+    background: #FF6262;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.sub-cat-img1 p{
+    position: absolute;
+    margin-top:250px;
+    margin-left: 10px;
+    color: white;
+    font-size: 30px;
+}
+.sub-cat-img2{
+    position: absolute;
+    width: 290px;
+    height: 433px;
+    left: 360px;
+    top: 1347px;
+    
+    background: #BB4C60;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.sub-cat-img2 p{
+    position: absolute;
+    margin-top:250px;
+    margin-left: 10px;
+    color: white;
+    font-size: 30px;
+}
+.sub-cat-img3{
+    position: absolute;
+    width: 290px;
+    height: 433px;
+    left: 690px;
+    top: 1347px;
+
+background: #EE627B;
+border-radius: 10px;
+}
+.sub-cat-img3 p{
+    position: absolute;
+    margin-top:250px;
+    margin-left: 10px;
+    color: white;
+    font-size: 30px;
+}
+.sub-cat-img4{
+position: absolute;
+width: 290px;
+height: 433px;
+left: 1020px;
+top: 1347px;
+
+background: #AB2364;
+border-radius: 10px;
+}
+.sub-cat-img4 p{
+    position: absolute;
+    margin-top:250px;
+    margin-left: 10px;
+    color: white;
+    font-size: 30px;
+}
+.image_inspire{
+    position: absolute;
+    width: 290px;
+    height: 190.25px; 
+}
+h3.inspire1{
+    position: absolute;
+    width: 473px;
+    height: 49px;
+    left: 72px;
+    top: 1813px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    color: #000000;
+}
+/* .sub_cat_img5{
+    position: absolute;
+    width: 612px;
+    height: 642px;
+    left: 72px;
+    top: 1893px;
+    text-align: center;
+} */
+.div4{
+    position: absolute;
+    width:100%;
+    max-width: 1339px;
+    height: 488px;
+    top: 2555px;
+ 
+    box-sizing: border-box;
+}
+.Shop_Airbnb_gift_cards{
+
+   
+    margin-right: 890px;
+    padding-top: 60px;
+    padding-left: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61px;
+   
+}
+.Learn_more{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 90px;
+    background-color: #000000;
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+.Learn_more:hover{
+    background-color: #aa0aa5;
+    transform: scale(1.1);
+    transition: .4s;
+}
+img.card_3{
+    position: absolute;
+    max-width: fit-content;
+    height: 430px;
+    left: 496px;
+    top: 2555px;
 }
